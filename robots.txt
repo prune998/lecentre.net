@@ -1,0 +1,72 @@
+# robots.txt — lecentre.net
+# Crawling is allowed so search engines can read the "noindex" meta tag
+# served on the page. AI training, data mining and scraping bots are not welcome.
+
+# OpenAI (ChatGPT, GPT store, SearchGPT)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# Common Crawl (feeds most LLM training sets)
+User-agent: CCBot
+Disallow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Google (Gemini training)
+User-agent: Google-Extended
+Disallow: /
+
+# Apple (Apple Intelligence)
+User-agent: Applebot-Extended
+Disallow: /
+
+# ByteDance (TikTok)
+User-agent: Bytespider
+Disallow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+# Amazon (Alexa / Bedrock)
+User-agent: Amazonbot
+Disallow: /
+
+# Meta (Facebook / LLaMA)
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: meta-externalresearch
+Disallow: /
+
+# Cohere, Diffbot, mega scrapers
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Imagesift
+Disallow: /
+
+Sitemap: https://lecentre.net/sitemap.xml
